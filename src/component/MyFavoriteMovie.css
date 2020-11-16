@@ -1,0 +1,31 @@
+.MyFavoriteMovie {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.MyFavoriteMovie h1 {
+  text-align: center;
+}
+
+.MyFavoriteMovie .form-data {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.MyFavoriteMovie .form-data label {
+  display: inline-block;
+  width: 200px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.MyFavoriteMovie .form-data input:not([type="submit"]) {
+  flex-grow: 1;
+}
+
+.MyFavoriteMovie .form-data textarea {
+  width: 250px;
+  height: 100px;
+}
